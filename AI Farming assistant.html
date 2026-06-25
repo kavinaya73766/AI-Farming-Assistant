@@ -1,0 +1,202 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Farming Assistant</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4fff4;
+        }
+
+        header{
+            background:green;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#145214;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+        }
+
+        .hero{
+            height:350px;
+            background:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854') center/cover;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:50px;
+            background:rgba(0,0,0,0.5);
+            padding:20px;
+            border-radius:10px;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:40px 0;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        .card h2{
+            color:green;
+            margin-bottom:15px;
+        }
+
+        .about{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            margin-top:40px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer{
+            background:green;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+
+        button{
+            margin-top:15px;
+            padding:10px 20px;
+            border:none;
+            background:green;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>AI Farming Assistant</h1>
+        <p>Smart Agriculture Using Artificial Intelligence</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Smart Farming</h1>
+    </section>
+
+    <div class="container">
+
+        <div class="cards">
+
+            <div class="card">
+                <h2>Crop Recommendation</h2>
+                <p>Suggests suitable crops based on soil and weather.</p>
+                <button>View</button>
+            </div>
+
+            <div class="card">
+                <h2>Disease Detection</h2>
+                <p>Detects plant diseases using AI technology.</p>
+                <button>View</button>
+            </div>
+
+            <div class="card">
+                <h2>Smart Irrigation</h2>
+                <p>Provides irrigation suggestions to save water.</p>
+                <button>View</button>
+            </div>
+
+            <div class="card">
+                <h2>Weather Prediction</h2>
+                <p>Predicts weather conditions for better farming.</p>
+                <button>View</button>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <h2>About Project</h2>
+            <br>
+            <p>
+                AI Farming Assistant is a smart agriculture system that helps farmers
+                improve productivity using Artificial Intelligence and Machine Learning.
+                It provides crop recommendations, disease detection, irrigation support,
+                and weather prediction.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 AI Farming Assistant | Developed Using AI</p>
+    </footer>
+    ```html
+<div class="card">
+    <h2>Crop Recommendation</h2>
+    <p>Suggests suitable crops based on soil and weather.</p>
+
+    <button onclick="showCrop()">
+        View
+    </button>
+</div>
+
+<script>
+
+function showCrop(){
+
+    alert("Recommended Crop: Rice");
+
+}
+
+</script>
+
+
+</body>
+</html>
+```
